@@ -3,23 +3,48 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-image: url(/images/background_b.png);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px;
+    align-items: center;    
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    margin-top: 2vh;
 }
 
 nav ul li {
-    margin: 0 40px;
-    font-size: 20pt;
+    margin: 0 10px;
 }
 
-nav ul li:hover {
-    color: yellow;
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+image {    
+    padding: 100px;
+    width: 70%;
+}
+
+.text {
+    width: 30%;
+    margin: 60px;
+}
+

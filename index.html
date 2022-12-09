@@ -4,65 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultor(a) laboral plantilla web</title>
+    <title>Landing page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div>
-            <ul class="navl">
-                <li>Martín Vazques</li>
-                <li>Coach Personal</li>
+    
+    <header>
+        <nav>
+            <ul class="nav1">
+                <li>TRIPLEX</li>
+                <br>
+                <li>Gimnasio</li>
             </ul>
-        </div>
-        <div>
-            <ul class="navr">
+                    
+            <ul>
                 <li>Inicio</li>
-                <li>Quiénes somos</li>
-                <li>Servicios</li>
-                <li>Blog</li>
-                <li>Contacto</li>
+                <li>+52-33-12345678</li>
+                <li><img src="/images/icon-tiktok.png" alt=""></li>
+                <li><img src="/images/icon-youtube.png" alt=""></li>
+                <li><img src="/images/icon-instagram.png" alt=""></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <main>
         <div>
-        
-        <iframe src="/multimedia/video.mp4" frameborder="0" allowfullscreen width="1024" height="768" loop="true"></iframe>
-              
-            <p>La ambición es el primer paso hacia el</p>
-            <br>
-            <p>ÉXITO</p>
+            <img class="image" src="/images/background_a.png"  alt="">             
         </div>
+        <div class="text">
+            <p>El método TriplexTM combina</p>
+            <p>fuerza, cardio y resistencia en una</p>
+            <p>divertida y transformadora sesión</p>
+            <p>para ayudarte a alcanzar tus</p>
+            <p>objetivos personales de ejercicio.</p>
+            <p>Ven a probarlo por ti mismo.</p>
+            <br>
+            <br>
+            <p>Suscríbete e infórmate de</p>
+            <p>nuestra apertura.</p>
+            <br>
+            <br>            
+        <form action="formulario.html" method="post">
+            <label for="email">Ingresa tu email aquí*</label>
+            <input type="text" name="email" id="email" required>
+            <br>
+            <input class="button" type="submit" value="Unirse">
+        </form>
+        </div>                 
+            
     </main>
     <footer>
-        <div>
-            <ul>
-                <li>Contacto</li>
-                <br>
-                <li>Av. Los Rosales 122</li>
-                <li>28021, Madrid</li>
-                <br>
-                <li>Tel: 914-123-456</li>
-                <li>Fax: 914-123-456</li>
-                <br>
-                <li>info@misitio.com</li>
-
-            </ul>
-        </div>
-        <div>
-            <form action="/formulario.html" method="post">
-                <label for="name">Nombre</label>
-                <input type="text" name="name" id="name">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-                <label for="phone">Teléfono</label>
-                <input type="text" name="phone" id="phone">
-                <label for="blog">Escribe tu mensaje aquí...</label>
-                <textarea name="blog" id="blog" cols="30" rows="5"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
+        <p>Política de privacidad</p>
+        <br>
+        <p>c 2035 Creado por Triplex Gimnasio con Wix.com</p>
     </footer>
 </body>
 </html>
